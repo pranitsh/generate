@@ -1,5 +1,5 @@
 # generate
-`Generate` is a python-based recursive prompting tool for GPT4All, attemtping to achieve greater flexibility, caching, and usability than similar products. It offers the ability to create multiple tasks and performing them all at once or one at a time, extending generator for creating new ones specific to your use case, and a number of pre- and post-processing steps for convenience. The source code is readable and examples are provided below.
+`Generate` is a python-based recursive prompting tool for GPT4All, attempting to achieve greater flexibility, caching, and usability than similar prompting tools. It offers the ability to create multiple tasks and performing them conveniently, extending class `generator` for creating recursive prompting structures for your use case, and a number of pre- and post-processing steps for convenience. The source code is readable and examples are provided in the code under `generator.generators`.
 
 Interested? Test the code quickly by running the below (requires python and git):
 ```sh
