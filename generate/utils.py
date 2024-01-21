@@ -30,7 +30,7 @@ def manage_object(
         return new_object
     return item_dict.get(main_dict, default_object)
 
-
+# TODO: Support adding objects individually for convenience.
 def manage_list(name: str, new_list: list = None) -> list:
     return manage_object(name, list(), new_list)
 

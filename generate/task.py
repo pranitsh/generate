@@ -1,5 +1,5 @@
 from datetime import datetime
-from generator import enum
+from generate import enum
 
 
 class Task:

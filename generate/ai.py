@@ -1,6 +1,6 @@
 from gpt4all import GPT4All
 import itertools
-from generator import utils
+from generate import utils
 
 
 class API:

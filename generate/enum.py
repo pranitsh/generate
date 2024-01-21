@@ -1,4 +1,4 @@
-from generator.generators import Generator
+from generate.generators import Generator
 from enum import Enum
 
 GeneratorType = Enum(

@@ -1,7 +1,7 @@
 import cmd
 from datetime import datetime
-from generator.task import Task
-from generator import utils
+from generate.task import Task
+from generate import utils
 
 
 class Organizer(cmd.Cmd):
