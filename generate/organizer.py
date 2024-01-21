@@ -58,13 +58,15 @@ class Organizer(cmd.Cmd):
         parser.add_argument(
             "--enum",
             default="BASIC",
-            help="The type of enum. { 'BASIC', 'AI', 'CODE', 'APPLICATION', 'REPORT', 'ADAPTIVE' }",
+            help="The type of enum. { 'BASIC', 'CODE', 'ADAPTIVE' }",
         )
         parser.add_argument(
             "--generator",
             default="gpt4all",
-            help="The type of generator. { 'gpt4all', 'openai' }",
+            help="The type of generator. { 'gpt4all' }",
         )
+        if args == "":
+            args = "-h"
         if isinstance(args, str) or isinstance(args, list[str]):
             args = parser.parse_args(args)
             to_add = Task(args.prompt, args.datetime, args.enum, args.generator)
