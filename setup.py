@@ -24,7 +24,7 @@ def main():
         ],
         entry_points={
             "console_scripts": [
-                "generator=generator.__main__:main",
+                "generate=generator.__main__:main",
             ]
         },
     )
